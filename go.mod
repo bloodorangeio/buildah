@@ -1,6 +1,6 @@
 module github.com/containers/buildah
 
-go 1.12
+go 1.13
 
 require (
 	github.com/blang/semver v3.5.0+incompatible // indirect
@@ -47,3 +47,5 @@ require (
 	golang.org/x/time v0.0.0-20190921001708-c4c64cad1fd0 // indirect
 	k8s.io/client-go v0.0.0-20181219152756-3dd551c0f083 // indirect
 )
+
+replace github.com/containers/image => github.com/bloodorangeio/image v1.5.2-0.20200120233520-74c4e1b5865f
